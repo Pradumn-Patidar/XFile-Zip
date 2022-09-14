@@ -5,10 +5,6 @@
 <h1 align="center">Huffman Coding</h1>
 
 <p align="center">
-  <a href="https://github.com/Pradumn-Patidar/huffman-compression/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/e-hengirmen/Huffman_Coding"
-      alt="MIT License" />
-  </a>
   <a href="https://www.linkedin.com/in/pradumn-patidar/">
     <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic-square&logo=linkedin&colorB=555"
       alt="linkedin" />
