@@ -4,11 +4,14 @@
 #include <string>
 #include <cstring>
 #include <cstdlib>
+#include<io.h>
 #include <dirent.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include "progress_bar.hpp"
-
+#if (defined(_WIN32) || defined(__WIN32__))
+#define mkdir(A, B) mkdir(A)
+#endif
 using namespace std;
 
 const unsigned char check=0b10000000;
